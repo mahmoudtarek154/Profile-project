@@ -1,0 +1,40 @@
+img{
+    width: 250px;
+}
+.home{
+    background-color: #0092ca;
+    text-align: center;
+    padding: 3%;
+    color: white;
+
+}
+.h2star{
+ position: relative;
+}
+.h2star::after{
+    content: "";
+    width: 200px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+   bottom: -50%;
+   left: 50%;
+transform: translate(-50%);
+}
+.home i{
+    background-color: #0092ca;
+    width: 40px;
+    height: 40px;
+    font-size: 17px;
+    padding: 25px;
+    z-index: 100;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%);
+
+}

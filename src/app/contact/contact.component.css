@@ -1,0 +1,60 @@
+.h2star{
+    position: relative;
+    margin-bottom: 100px;
+    text-align: center;
+   
+   }
+   .h2star::after{
+       content: "";
+       width: 200px;
+       height: 4px;
+       background-color:  #005689;
+       position: absolute;
+      bottom: -50%;
+      left: 50%;
+   transform: translate(-50%);
+   }
+   .contact .iconh2{
+       background-color: white;
+       width: 40px;
+       height: 40px;
+       font-size: 17px;
+       padding: 25px;
+       z-index: 100;
+       position: absolute;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-radius: 100px;
+       top: 90%;
+       left: 50%;
+       transform: translate(-50%);
+   
+   }
+   .contact input{
+    display: block;
+    padding: 10px 20px;
+    width: 40%;
+    border: none;
+    border-bottom: 1px solid #005689 ;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 50px;
+   }
+.contact button{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:  #005689;
+    border: 1px solid  #005689;
+    color: white;
+    transition:  0.5s;
+
+}
+.contact button:hover{
+  
+    background-color:  #008ee0;
+    border: 1px solid  #008ee0;
+  
+}

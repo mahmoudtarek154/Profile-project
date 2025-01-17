@@ -1,0 +1,14 @@
+.navbarcomponent{
+    background-color: #005689;
+}
+.navbarcomponent a{
+    color: white;
+
+}
+.navlink{
+    border-radius: 10px;
+}
+.activelink{
+    background-color: #0092ca;
+
+}
